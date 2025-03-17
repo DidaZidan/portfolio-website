@@ -1,0 +1,76 @@
+.Hero{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.Hero .image img{
+    height: 150px;
+    border-radius: 50%;
+}
+.Hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.Hero h1 span{
+background: linear-gradient(to left,#DA7C25,#B923E1 );
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.Hero p{
+    font-size: 1.5rem;
+    width: 40%;
+    text-align: center;
+}   
+.Hero p a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Hero p a:hover{
+    scale: 1.03;
+    color: #adadad;
+}
+.Hero .btns{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+.Hero .btns .body-btn1{
+    cursor: pointer;
+    background:linear-gradient(to right,#DA7C25,#B923E1 );
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.Hero .btns .body-btn2{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.Hero .btns .body-btn1:hover{
+    scale: 1.02 ;
+    background-color: transparent;
+    border: 1px solid white;
+    background:linear-gradient(to right,transparent,transparent); 
+}
+.Hero .btns .body-btn2:hover{
+    scale: 1.02 ;
+    border: 1px solid #B923E1;
+}
+.Hero .btns .body-btn1 a{
+    text-decoration: none;
+    color: white;
+}

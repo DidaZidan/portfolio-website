@@ -1,0 +1,33 @@
+.about{
+    text-align: center;
+    margin-top: 100px;
+}
+.about h1{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    background: linear-gradient(#DA7C25,#B923E1 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about .skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+    margin-top: 50px;
+}
+.about .skills .skill i{
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+.about .skills .skill div{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.about .skills .skill{
+    transition: 0.2s;
+}
+.about .skills .skill:hover{
+    scale: 1.04;
+}

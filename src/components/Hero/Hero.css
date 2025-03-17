@@ -6,8 +6,13 @@
     gap: 30px;
 }
 .Hero .image img{
-    height: 150px;
+    width: 115px;
+    height: 110px;
     border-radius: 50%;
+    transition: 0.5s;
+}
+.Hero .image img:hover{
+    scale: 1.05;
 }
 .Hero h1{
     text-align: center;

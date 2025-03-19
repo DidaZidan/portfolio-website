@@ -50,31 +50,22 @@ background-clip: text;
     gap: 40px;
     margin-top: 10px;
 }
-.Hero .btns .body-btn1{
+.Hero .btns .body-btn1 a{
     cursor: pointer;
     background:linear-gradient(to right,#DA7C25,#B923E1 );
     padding: 20px;
     border-radius: 15px;
     transition: 0.3s;
+    text-decoration: none;
 }
-.Hero .btns .body-btn2{
-    cursor: pointer;
-    background-color: transparent;
-    border: 1px solid white;
-    padding: 20px;
-    border-radius: 15px;
-    transition: 0.3s;
-}
-.Hero .btns .body-btn1:hover{
+
+.Hero .btns .body-btn1 a:hover{
     scale: 1.02 ;
     background-color: transparent;
     border: 1px solid white;
     background:linear-gradient(to right,transparent,transparent); 
 }
-.Hero .btns .body-btn2:hover{
-    scale: 1.02 ;
-    border: 1px solid #B923E1;
-}
+
 .Hero .btns .body-btn1 a{
     text-decoration: none;
     color: white;

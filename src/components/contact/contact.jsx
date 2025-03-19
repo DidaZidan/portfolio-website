@@ -10,18 +10,18 @@ return(
                     <i className="fa-solid fa-envelope"></i> <span>abdelrahmanbusiness2006@gmail.com</span>
                     </div>
                     <div className="linked">
-                    <i className="fa-brands fa-linkedin"></i> <span>abdelrahmanbusiness2006@gmail.com</span>
+                    <i className="fa-brands fa-linkedin"></i> <span>www.linkedin.com/in/abdelrahman-zidan-bb89a1356</span>
                     </div>
             </div>
             <form action="https://formspree.io/f/xkgjgzgo" method='post'>
                 <div className="inputs">
                     <div className="user">
                     <p><label  htmlFor="name">Your Name</label></p>
-                    <input name='username' placeholder='Enter you name' id='name' type="text" />
+                    <input name='username' placeholder='Enter you name' id='name' type="text"  required/>
                     </div>
                     <div className="mail">
                     <p><label htmlFor="mail">Your Email</label></p>
-                    <input name='email' placeholder='Enter you email' id='mail' type="text" />
+                    <input name='email' placeholder='Enter you email' id='mail' type="text" required />
                     </div>
                     <div className="area">
                         <p><label htmlFor="text">Write your message here</label></p>
